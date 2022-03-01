@@ -6,8 +6,8 @@
   const music = document.getElementById("music");
 
 function toggleSound() {
-  if (sound.style.display !== "block") {
-      sound.style.display = "block";
+  if (sound.style.display !== "flex") {
+      sound.style.display = "flex";
       video.style.display = "none";
       music.style.display = "none";
   } else {
@@ -17,8 +17,8 @@ function toggleSound() {
 
 
 function toggleVideo() {
-  if (video.style.display !== "block") {
-      video.style.display = "block";
+  if (video.style.display !== "flex") {
+      video.style.display = "flex";
       sound.style.display = "none";
       music.style.display = "none";
   } else {
@@ -27,8 +27,8 @@ function toggleVideo() {
 }
 
 function toggleMusic() {
-  if (music.style.display !== "block") {
-      music.style.display = "block";
+  if (music.style.display !== "flex") {
+      music.style.display = "flex";
       video.style.display = "none";
       sound.style.display = "none";
   } else {
